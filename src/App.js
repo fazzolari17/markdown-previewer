@@ -1,10 +1,6 @@
-import React
-, { useCallback }// { useContext }
-  from "react";
+import React from "react";
 import Editor from "./components/Editor";
 import Previewer from "./components/Previewer";
-// import { Context } from "./Context"
-// import Footer from "./components/Footer";
 import { marked } from 'marked';
 import { PlaceholderText } from "./placeholder";
 import Prism from "./prism";
